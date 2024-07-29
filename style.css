@@ -1,0 +1,35 @@
+* {
+    font-size: small;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.top-of-page {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-size: medium;
+    background-color: aqua;
+}
+
+#red{
+    background-color: rgb(255, 107, 107)
+}
+
+#yellow{
+    background-color: lightgoldenrodyellow;
+}

@@ -1,16 +1,70 @@
+/* blue         #51A3A3 
+eggplant        #75485E
+butterscotch    #CB904D   
+citron          #DFCC74 
+green           #C3E991
+*/
+
 * {
     font-size: small;
     text-align: center;
     list-style-position: inside;
 }
 
-.top-of-page {
+body{
+    background-color: #CB904D30;
+}
+
+a,
+a:focus{
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.header {
     text-align: center;
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aliceblue;
+    background-color: #51A3A340 ;
+    width: 600px;
+    margin: 30px auto;
+    padding: 10px;
 
 }
+
+.recipe-link{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #CB904D40;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.recipe-link *{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.picture {
+    width: 300px;
+    padding: 10px;
+    border: 2px dotted black;
+    background-color: #C3E991;
+    margin: 20px auto;
+}
+
 
 img {
     margin-left: auto;
@@ -23,7 +77,7 @@ img {
 h2 {
     text-align: center;
     font-size: medium;
-    background-color: aqua;
+    background-color: #51A3A340;
 }
 
 #red{
@@ -32,4 +86,17 @@ h2 {
 
 #yellow{
     background-color: lightgoldenrodyellow;
+}
+
+.ingredients{
+    margin: 0px auto;
+}
+
+.ingredients * {
+    display: inline;
+    padding: 1px 5px;
+    margin: 5px;
+    background-color: #CB904D40;
+    font-size: large;
+    border: dotted black;
 }
